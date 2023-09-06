@@ -1078,6 +1078,7 @@ footer {
 		0, var(--clr-purple) 55%,
 		transparent 50%);
     padding: 0.2rem 0.3rem;
+	 font-size: clamp(1rem, 0.9393rem + 0.2589vw, 1.25rem);
 }
 
 .foot-c {
@@ -1085,7 +1086,7 @@ footer {
   margin: 0 auto;
   padding: 0 0 1vw 0;
   opacity: 40%;
-  font-size: clamp(1rem, 0.9393rem + 0.2589vw, 1.25rem);
+ 
 }
 
 @media (max-width:590px) {
