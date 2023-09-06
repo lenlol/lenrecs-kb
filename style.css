@@ -50,6 +50,47 @@
    }
 
 
+
+
+
+
+  /* big text 
+  
+  
+  .big-text {
+    line-height: 0.8;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-family: 'Archivo Black', sans-serif;
+    background: url(img/vipul-jha-a4X1cdC1QAc-unsplash.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  }
+
+  .first-h1 {
+    font-size: 23.2vw;
+    background-position: top;
+  }
+
+  .big-text-r {
+    font-size: 23.2vw;
+    text-align: right;
+    background-position: center;
+    padding: 1rem 0;
+  }
+  .last-h1 {
+    font-size: 23.2vw;
+    background-position: bottom;
+  }
+
+   */
+
+
+
    ::selection {
     color: white;
     background: var(--clr-purple);
@@ -82,19 +123,23 @@ body {
     position: sticky;
     top: 0;
     z-index: 1;
-    
    }
 
    .head-flex {
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 2.5rem;
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1570px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-@media (max-width:fd) {}
+  @media (max-width:636px) {
+    .head-flex {
+      padding: 1.5rem 1.5rem; 
+    }
+  }
+  
 
   nav p {
     margin-right: 1rem;
@@ -385,17 +430,6 @@ section {
   padding: 2vw;
 }
 
-/* .keyboards {
-  background-image: url(img/bg-0.5.png);
-  background-size: cover;
-}
-
-.switches {
-  background-image: url(img/bg-0.5.png);
-  background-size: cover;
-} */
-
-
 
 #keyboards .section-title p, #switches .section-title p, #more .section-title p {
   display: inline;
@@ -593,7 +627,7 @@ box-shadow: 27px 4px 39px 3px rgba(0,0,0,0.12);
 
 .switch-img {
   grid-area: img;
-  border-radius: 7% 0 0 7%;
+  border-radius: 5% 0 0 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -705,7 +739,7 @@ margin-left: 0.5vw;
 
   .switch-img {
     padding: 3vw 0 3vw 0;
-    border-radius: 14% 0 0 14%;
+    border-radius: 11% 0 0 11%;
   }
 
 
@@ -964,13 +998,14 @@ h5 {
 
 
 .middle {
+  width: 50%;
   transition: .1s ease;
   opacity: 0;
   position: absolute;
   top: 7%;
   right: 7%;
   width: 15%;
-	height:auto;
+  z-index: 1;
 }
 
 .more-item:hover .middle {
@@ -1038,7 +1073,7 @@ footer {
 		0, var(--clr-purple) 55%,
 		transparent 50%);
     padding: 0.2rem 0.3rem;
-	 font-size: clamp(1rem, 0.9393rem + 0.2589vw, 1.25rem);
+    font-size: clamp(1rem, 0.9393rem + 0.2589vw, 1.25rem);
 }
 
 .foot-c {
@@ -1046,7 +1081,6 @@ footer {
   margin: 0 auto;
   padding: 0 0 1vw 0;
   opacity: 40%;
- 
 }
 
 @media (max-width:590px) {
