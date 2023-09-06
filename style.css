@@ -86,13 +86,15 @@ body {
    }
 
    .head-flex {
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 3rem;
     margin: 0 auto;
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
+@media (max-width:fd) {}
 
   nav p {
     margin-right: 1rem;
