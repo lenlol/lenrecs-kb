@@ -1003,8 +1003,6 @@ h5 {
 
 
 .middle {
-  width: 50%;
-  height: 50%;
   transition: .1s ease;
   opacity: 0;
   position: absolute;
