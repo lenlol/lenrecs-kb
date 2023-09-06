@@ -50,47 +50,6 @@
    }
 
 
-
-
-
-
-  /* big text 
-  
-  
-  .big-text {
-    line-height: 0.8;
-  }
-
-  h1 {
-    text-transform: uppercase;
-    font-family: 'Archivo Black', sans-serif;
-    background: url(img/vipul-jha-a4X1cdC1QAc-unsplash.jpg);
-    background-size: cover;
-    -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  }
-
-  .first-h1 {
-    font-size: 23.2vw;
-    background-position: top;
-  }
-
-  .big-text-r {
-    font-size: 23.2vw;
-    text-align: right;
-    background-position: center;
-    padding: 1rem 0;
-  }
-  .last-h1 {
-    font-size: 23.2vw;
-    background-position: bottom;
-  }
-
-   */
-
-
-
    ::selection {
     color: white;
     background: var(--clr-purple);
