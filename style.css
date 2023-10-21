@@ -640,8 +640,7 @@ margin-left: 0.5vw;
 @media (max-width:590px) {
   .switches-flex {
     flex-direction: column;
-	  justify-content: center;
-	  aligh-items: center;
+	  align-items: center;
   }
   
   .switch-group {
